@@ -7,194 +7,169 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Illya Chekrygin
+    tagline: Kubernetes Applications Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: illya.chekrygin@gmail.com
+    phone: #012 345 6789
+    website: illya-chekrygin.com #do not add http://
+    linkedin: illyachekrygin
+    github: ichekrygin
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@illya_chekrygin'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Mountain Biking
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Traveling
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Experienced software engineer, specializing in distributed computing and building distributed systems.
 
 education:
     - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      university: Nova Southeastern University
+      time: 2014 - 2016
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: BSc in Computer Science
+      university: Florida Atlantic University
+      time: 2010 - 2014
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Founding Member / Engineer
+      time: 2018 - Present
+      company: Upbound, Seattle
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Lead maintainer on <a href="https://crossplane.io" target="_blank">Crossplane</a> open source project. Design and architecture
+        of a multicloud control plane for provisioning and full life-cycle management of
+        the resources across cloud providers and regions.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Senior Staff Engineer
+      time: 2015 - 2018
+      company: HBO Labs, Seattle
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Introduced, architected and drove containerization and migration of core
+        HBO's stream service to Kubernetes on AWS to overcome the limitations
+        of traditional EC2 deployments, leveraging dynamic Kubernetes cluster
+        and pod autoscaling, service discovery. Operational support of
+        Kubernetes clusters from the ground up: deployment, maintenance, and
+        telemetry: (Monitoring & Alerting,) leveraging Grafana in combination
+        with TSDB's: Prometheus, InfluxDB, Graphite.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Lead Software Engineer
+      time: 2012 - 2015
+      company: Zulily, Seattle
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Core Engineering team.
+        Built data platform for data modeling (training and evaluation) on top of
+        Redis and Google Compute Engine:
 
-          - Bullet point
-          - Bullet point
+          - Go
+          - Kubernetes
+          - Redis + Lua
+
+    - role: Sr. Software Engineer, MEP
+      time: 2011 - 2012
+      company: Zulily, Seattle
+      details: |
+        Built a Member Engagement Platform(MEP) for Zulily.com. Zulily is an
+        online store offering daily sales events on top-quality apparel, gear for moms, babies,
+        and kids at huge discounts. Designed and implemented a horizontally scalable ETL
+        batch processing in conjunction with real-time
+        ad-hoc query engine using:
+
+          - Hadoop/MapReduce
+          - RabbitMQ
+          - Redis
+          - Hive, MongoDB
+
+    - role: Senior Lead SDET
+      time: 2011 - 2012
+      company: Microsoft, Redmond
+      details: |
+        Microsoft Server & Tools Division
+        Identity Management - Information Protection
+
+    - role: Sr. SDE
+      time: 2007 - 2011
+      company: Yahoo!, Tallahassee
+      details: |
+        Migrated existing revenue data pipelines from the legacy system
+        into Grid (Hadoop/Java) as a part of company-wide data processing consolidation effort.
+
+    - role: System Architect
+      time: 2006 - 2007
+      company: Right Media, Tallahassee
+      details: |
+        Data Aggregation (DAGG): Authored a logically/physically tiered distributed Java
+        application (10,000+ machines), to facilitate real-time revenue data collection
+        and processing with a high degree of fault tolerance and maximum throughput
+        (100GB+ of data per hour).
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: Projects
+  intro:
+  assignments:
+    - title: Crossplane
+      link: https://crossplane.io/
+      tagline: "An open source multicloud control plane, introduces workload and resource abstractions on-top of existing managed services that enables a high degree of workload portability across cloud providers."
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
+presentations:
+    title: Presentations
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Extending Kubernetes Scheduler for Multi-Cluster and Multi-Cloud Workloads
+        link: https://sched.co/NrnP
+        conference: 2019 Kubecon - Shanghai, China
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Clusters as Cattle
+        link: https://www.geekwire.com/cloud-summit-2019-devops-track/
+        conference: 2019 GeekWire Cloud Summit – Seattle, WA
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Writing Robust Operators
+        link: https://sched.co/MPaN
+        conference: 2019 Kubecon - Barcelona, Spain
+
+      - title: Clusters as Cattle
+        link: https://sched.co/GrWN
+        conference: 2018 Kubecon - Seattle, WA
+
+      - title: Pushing the Limits of Kubernetes with Game of Thrones (Keynote)
+        link: https://sched.co/CU7t
+        conference: 2017 Kubecon – Austin, TX
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Go
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Kubernetes
         level: 95%
 
-      - name: Ruby on Rails
+      - name: AWS
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Azure
+        level: 65%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: GCP
+        level: 75%

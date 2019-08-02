@@ -193,7 +193,7 @@ p {
         top: 0;
         color: $text-grey;
     }
-    .company, .university {
+    .company, .university, .presentation-conference {
         margin-bottom: 10px;
         color: $text-grey;
     }
@@ -205,6 +205,21 @@ p {
         margin-bottom: 5px;
     }
     .projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+
+    .presentation-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .presentations-section {
         .intro {
             margin-bottom: 30px;
         }

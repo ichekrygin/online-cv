@@ -1,0 +1,27 @@
+{% assign presentations = site.data.data.presentations %}
+{% if presentations %}
+<section class="section presentations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ presentations.title }}
+  </h2>
+
+  {% if presentations.intro %}
+  <div class="intro">
+    {{ presentations.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for presentation in presentations.papers %}
+  <div class="item">
+    <div class="presentation-title"><a href="{{ presentation.link }}" target="_blank">{{ presentation.title }}</a></div>
+    <div class="presentation-conference">{{ presentation.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
