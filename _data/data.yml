@@ -73,7 +73,7 @@ experiences:
         with TSDB's: Prometheus, InfluxDB, Graphite.
 
     - role: Lead Software Engineer
-      time: 2012 - 2015
+      time: 2014 - 2015
       company: Zulily, Seattle
       details: |
         Core Engineering team.
@@ -85,7 +85,7 @@ experiences:
           - Redis + Lua
 
     - role: Sr. Software Engineer, MEP
-      time: 2011 - 2012
+      time: 2012 - 2014
       company: Zulily, Seattle
       details: |
         Built a Member Engagement Platform(MEP) for Zulily.com. Zulily is an
