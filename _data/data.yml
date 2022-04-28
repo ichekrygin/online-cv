@@ -52,8 +52,21 @@ education:
       time: 2000 - 2004
 
 experiences:
+    - role: Field Engineer
+      time: 2021 - Present
+      company: Apple, Seattle
+      details: |
+        I am working with internal customers to adopt and migrate workloads to Kubernetes (on-prem or public-cloud) infrastructure.
+
+    - role: Site Reliability Engineer
+      time: 2019 - 2021
+      company: Apple, Seattle
+      details: |
+        Building and supporting multi-tenant Kubernetes clusters on bare metal with all the "peripherals". 
+        Driving improving infrastructure reliability effort. 
+
     - role: Founding Member / Engineer
-      time: 2018 - Present
+      time: 2018 - 2019
       company: Upbound, Seattle
       details: |
         Lead maintainer on <a href="https://crossplane.io" target="_blank">Crossplane</a> open source project. Design and architecture
