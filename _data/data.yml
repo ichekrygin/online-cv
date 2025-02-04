@@ -38,9 +38,40 @@ sidebar:
       - item: Traveling
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Experienced software engineer, specializing in distributed computing and building distributed systems.
+    title: Professional Summary
+    summary: |     
+      Experienced software engineer with a strong background in distributed computing, Kubernetes, and cloud-native technologies. Over [X] years of expertise in designing, building, and maintaining scalable infrastructure solutions, specializing in multi-tenant Kubernetes clusters, workload scheduling, and platform reliability. Proven track record of leading architecture reviews, improving system resilience, and driving innovation in cloud and on-premises environments. Adept at identifying and resolving functional gaps, implementing automation, and contributing to open-source projects. Passionate about developing robust, scalable, and efficient systems that enhance platform usability and performance.
+
+      Key skills include:        
+        - Kubernetes & Cloud Platforms – Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure).
+        - Infrastructure Reliability – Enhancing system reliability and availability through automation, monitoring, and proactive issue resolution.
+        - Software Development – Proficient in Go, Python, and Java for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
+        - Technical Leadership – Driving large-scale initiatives, mentoring teams, and contributing to open-source projects like Crossplane.
+
+achievements:
+  title: Achievements and Impact
+  summary: |
+    Infrastructure & Kubernetes Innovation
+    - Designed and deployed multi-tenant Kubernetes clusters on bare metal, improving resource utilization and cost efficiency across production workloads.
+    - Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.
+    - Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by X% and improving incident resolution time.
+    
+    Cloud-Native Platform Adoption & Optimization
+    - Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
+    - Bridged functional gaps in Apple’s Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
+    - Drove Kubernetes migration efforts at [HBO/Upbound/Zulily], leading to improved scalability, operational efficiency, and cloud cost savings of X%.
+    
+    Open-Source & Community Contributions    
+    - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
+    - Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
+    - Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
+    
+    Reliability & Performance Improvements
+    - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
+      - Reduced failure rates by 20%, improving overall cluster stability and reliability.
+      - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
+    - Enhanced CI/CD Pipeline: Designed and deployed a robust CI/CD pipeline for containerized applications, significantly reducing deployment times and improving developer efficiency.
+    - Proactive Monitoring & Incident Response: Built a real-time monitoring and alerting system, enabling proactive issue detection and reducing incident response times from days to minutes, minimizing downtime and improving system availability.
 
 education:
     - degree: MSc in Computer Science
@@ -56,63 +87,37 @@ experiences:
       time: 2021 - Present
       company: Apple, Seattle
       details: |
-        Assisted customers in adopting the Apple Compute Platform across a wide range of environments, including on-premises and third-party clouds.
-        Conducted architecture reviews of customer applications and services to determine the optimal computing platform fit.
-        Identified and resolved functional gaps in the compute platform, driving comprehensive solutions to enhance customer experience and platform utilization.
+        Assisted customers in adopting the Apple Compute Platform across various environments, including on-premises and third-party clouds. Conducted architectural reviews of customer applications and services to determine the optimal computing platform fit. Identified and resolved functional gaps in the compute platform, driving comprehensive solutions to enhance customer experience and platform utilization.
 
     - role: Site Reliability Engineer
       time: 2019 - 2021
       company: Apple, Seattle
       details: |
-        Built and maintained multi-tenant Kubernetes clusters on bare metal, including all necessary peripherals.
-        Led efforts to improve infrastructure reliability by identifying issues within internal Kubernetes clusters and implementing solutions using Kubernetes controllers and plugins.
+        Built and maintained multi-tenant Kubernetes clusters on bare metal, including all necessary peripherals. Led efforts to improve infrastructure reliability by identifying issues within internal Kubernetes clusters and implementing solutions using Kubernetes controllers and plugins.
 
     - role: Founding Member / Engineer
       time: 2018 - 2019
       company: Upbound, Seattle
       details: |
-        Lead maintainer on <a href="https://crossplane.io" target="_blank">Crossplane</a> open source project. Design and architecture
-        of a multicloud control plane for provisioning and full life-cycle management of
-        the resources across cloud providers and regions.
+        Served as the lead maintainer of the Crossplane open-source project. Designed and architected a multicloud control plane for provisioning and full lifecycle management of resources across cloud providers and regions.
 
     - role: Senior Staff Engineer
       time: 2015 - 2018
       company: HBO Labs, Seattle
       details: |
-        Introduced, architected and drove containerization and migration of core
-        HBO's stream service to Kubernetes on AWS to overcome the limitations
-        of traditional EC2 deployments, leveraging dynamic Kubernetes cluster
-        and pod autoscaling, service discovery. Operational support of
-        Kubernetes clusters from the ground up: deployment, maintenance, and
-        telemetry: (Monitoring & Alerting,) leveraging Grafana in combination
-        with TSDB's: Prometheus, InfluxDB, Graphite.
+        Introduced, architected, and led the containerization and migration of HBO's core streaming service to Kubernetes on AWS, overcoming the limitations of traditional EC2 deployments. Leveraged dynamic Kubernetes cluster and pod autoscaling, as well as service discovery. Provided operational support for Kubernetes clusters from the ground up, including deployment, maintenance, and telemetry (monitoring and alerting), utilizing Grafana in combination with TSDBs such as Prometheus, InfluxDB, and Graphite.
 
     - role: Lead Software Engineer
       time: 2014 - 2015
       company: Zulily, Seattle
       details: |
-        Core Engineering team.
-        Built data platform for data modeling (training and evaluation) on top of
-        Redis and Google Compute Engine:
-
-          - Go
-          - Kubernetes
-          - Redis + Lua
+        As part of the Core Engineering team, built a data platform for data modeling (training and evaluation) on top of Redis and Google Compute Engine.
 
     - role: Sr. Software Engineer, MEP
       time: 2012 - 2014
       company: Zulily, Seattle
       details: |
-        Built a Member Engagement Platform(MEP) for Zulily.com. Zulily is an
-        online store offering daily sales events on top-quality apparel, gear for moms, babies,
-        and kids at huge discounts. Designed and implemented a horizontally scalable ETL
-        batch processing in conjunction with real-time
-        ad-hoc query engine using:
-
-          - Hadoop/MapReduce
-          - RabbitMQ
-          - Redis
-          - Hive, MongoDB
+        Built a Member Engagement Platform (MEP) for Zulily.com, an online store offering daily sales events on top-quality apparel and gear for moms, babies, and kids at significant discounts.
 
     - role: Senior Lead SDET
       time: 2011 - 2012
@@ -125,17 +130,13 @@ experiences:
       time: 2007 - 2011
       company: Yahoo!, Tallahassee
       details: |
-        Migrated existing revenue data pipelines from the legacy system
-        into Grid (Hadoop/Java) as a part of company-wide data processing consolidation effort.
+        Lead revenue data pipelines migration into Hadoop.
 
     - role: System Architect
       time: 2006 - 2007
       company: Right Media, Tallahassee
       details: |
-        Data Aggregation (DAGG): Authored a logically/physically tiered distributed Java
-        application (10,000+ machines), to facilitate real-time revenue data collection
-        and processing with a high degree of fault tolerance and maximum throughput
-        (100GB+ of data per hour).
+        Data Aggregation Platform to advertisement platform. 
 
 projects:
   title: Projects
@@ -150,9 +151,13 @@ presentations:
     intro: |
 
     papers:
+      - title: Distributed Pod Disruption Budget
+        link: https://www.youtube.com/watch?v=2IPf_AyKSsU
+        conference: 2023 KubeCon - Amsterdam
+
       - title: Extending Kubernetes Scheduler for Multi-Cluster and Multi-Cloud Workloads
         link: https://sched.co/NrnP
-        conference: 2019 Kubecon - Shanghai, China
+        conference: 2019 KubeCon - Shanghai, China
 
       - title: Clusters as Cattle
         link: https://www.geekwire.com/cloud-summit-2019-devops-track/
@@ -160,15 +165,15 @@ presentations:
 
       - title: Writing Robust Operators
         link: https://sched.co/MPaN
-        conference: 2019 Kubecon - Barcelona, Spain
+        conference: 2019 KubeCon - Barcelona, Spain
 
       - title: Clusters as Cattle
         link: https://sched.co/GrWN
-        conference: 2018 Kubecon - Seattle, WA
+        conference: 2018 KubeCon - Seattle, WA
 
       - title: Pushing the Limits of Kubernetes with Game of Thrones (Keynote)
         link: https://sched.co/CU7t
-        conference: 2017 Kubecon – Austin, TX
+        conference: 2017 KubeCon – Austin, TX
 
 skills:
     title: Skills &amp; Proficiency
