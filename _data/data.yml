@@ -56,14 +56,16 @@ experiences:
       time: 2021 - Present
       company: Apple, Seattle
       details: |
-        Helping customers successfully adopt Kubernetes (on-prem or public-cloud) infrastructure.
+        Assisted customers in adopting the Apple Compute Platform across a wide range of environments, including on-premises and third-party clouds.
+        Conducted architecture reviews of customer applications and services to determine the optimal computing platform fit.
+        Identified and resolved functional gaps in the compute platform, driving comprehensive solutions to enhance customer experience and platform utilization.
 
     - role: Site Reliability Engineer
       time: 2019 - 2021
       company: Apple, Seattle
       details: |
-        Building and supporting multi-tenant Kubernetes clusters on bare metal with all the "peripherals". 
-        Driving improving infrastructure reliability effort. 
+        Built and maintained multi-tenant Kubernetes clusters on bare metal, including all necessary peripherals.
+        Led efforts to improve infrastructure reliability by identifying issues within internal Kubernetes clusters and implementing solutions using Kubernetes controllers and plugins.
 
     - role: Founding Member / Engineer
       time: 2018 - 2019
