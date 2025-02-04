@@ -14,11 +14,13 @@
 
     {% for skill in skills.toolset %}
     <div class="item">
+
       <h3 class="level-title">{{ skill.name }}</h3>
 
-      <div class="summary">
-        {{ skill.summary | markdownify }}
-      </div><!--//summary-->
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
 
     </div><!--//item-->
     {% endfor %}

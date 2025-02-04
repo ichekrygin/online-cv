@@ -42,36 +42,46 @@ career-profile:
     summary: |     
       Experienced software engineer with a strong background in distributed computing, Kubernetes, and cloud-native technologies. Over 15 years of expertise in designing, building, and maintaining scalable infrastructure solutions, specializing in multi-tenant Kubernetes clusters, workload scheduling, and platform reliability. Proven track record of leading architecture reviews, improving system resilience, and driving innovation in cloud and on-premises environments. Adept at identifying and resolving functional gaps, implementing automation, and contributing to open-source projects. Passionate about developing robust, scalable, and efficient systems that enhance platform usability and performance.
 
-      ## Key skills include:        
-        - **Kubernetes & Cloud Platforms** – Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure).
-        - **Infrastructure Reliability** – Enhancing system reliability and availability through automation, monitoring, and proactive issue resolution.
-        - **Software Development** – Proficient in Go, Python, and Java for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
-        - **Technical Leadership** – Driving large-scale initiatives, mentoring teams, and contributing to open-source projects like Crossplane.
+skills:
+  title: Skills &amp; Proficiency
+  toolset:
+    - name: Kubernetes & Cloud Platforms
+      summary: Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure).
+
+    - name: Infrastructure Reliability
+      summary: Enhancing system reliability and availability through automation, monitoring, and proactive issue resolution.
+
+    - name: Software Development
+      summary: Proficient in Go, Python, and Java for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
+
+    - name: Technical Leadership
+      summary: Driving large-scale initiatives, mentoring teams, and contributing to open-source projects like Crossplane.
 
 achievements:
   title: Achievements and Impact
-  summary: |
-    ## Infrastructure & Kubernetes Innovation
-    - Designed and deployed multi-tenant Kubernetes clusters on bare metal, improving resource utilization and cost efficiency across production workloads.
-    - Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.
-    - Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.
-    
-    ## Cloud-Native Platform Adoption & Optimization
-    - Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
-    - Bridged functional gaps in Apple’s Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
-    - Drove Kubernetes migration efforts at [HBO/Upbound/Zulily], leading to improved scalability, operational efficiency, and cloud cost savings.
-    
-    ## Open-Source & Community Contributions    
-    - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
-    - Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
-    - Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
-    
-    ## Reliability & Performance Improvements
-    - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
-      - Reduced failure rates by 20%, improving overall cluster stability and reliability.
-      - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
-    - Enhanced CI/CD Pipeline: Designed and deployed a robust CI/CD pipeline for containerized applications, significantly reducing deployment times and improving developer efficiency.
-    - Proactive Monitoring & Incident Response: Built a real-time monitoring and alerting system, enabling proactive issue detection and reducing incident response times from days to minutes, minimizing downtime and improving system availability.
+  toolset:
+    - name: Infrastructure & Kubernetes Innovation
+      summary: |
+        - Designed and deployed multi-tenant Kubernetes clusters on bare metal, improving resource utilization and cost efficiency across production workloads.
+        - Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.
+        - Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.
+    - name: Cloud-Native Platform Adoption & Optimization
+      summary: |      
+        - Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
+        - Bridged functional gaps in Apple’s Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
+        - Drove Kubernetes migration efforts at [HBO/Upbound/Zulily], leading to improved scalability, operational efficiency, and cloud cost savings.
+    - name: Open-Source & Community Contributions
+      summary: |
+        - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
+        - Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
+        - Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
+    - name: Reliability & Performance Improvements
+      summary: | 
+        - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
+          - Reduced failure rates by 20%, improving overall cluster stability and reliability.
+          - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
+        - Enhanced CI/CD Pipeline: Designed and deployed a robust CI/CD pipeline for containerized applications, significantly reducing deployment times and improving developer efficiency.
+        - Proactive Monitoring & Incident Response: Built a real-time monitoring and alerting system, enabling proactive issue detection and reducing incident response times from days to minutes, minimizing downtime and improving system availability.
 
 education:
     - degree: MSc in Computer Science
@@ -175,21 +185,3 @@ presentations:
         link: https://sched.co/CU7t
         conference: 2017 KubeCon – Austin, TX
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Go
-        level: 98%
-
-      - name: Kubernetes
-        level: 95%
-
-      - name: AWS
-        level: 85%
-
-      - name: Azure
-        level: 65%
-
-      - name: GCP
-        level: 75%
