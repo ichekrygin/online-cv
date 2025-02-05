@@ -70,9 +70,9 @@ achievements:
         <p>Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.</p>
     - name: Cloud-Native Platform Adoption & Optimization
       summary: |
-        - Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
-        - Bridged functional gaps in Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
-        - Drove Kubernetes migration efforts, leading to improved scalability, operational efficiency, and cloud cost savings.
+        Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
+        <p>Bridged functional gaps in Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
+        <p>Drove Kubernetes migration efforts, leading to improved scalability, operational efficiency, and cloud cost savings.
     - name: Open-Source & Community Contributions
       summary: |
         - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
