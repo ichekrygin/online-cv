@@ -258,7 +258,7 @@ p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
-        text-align:left;
+        white-space: nowrap;
     }
     .level-bar {
         height: 12px;
@@ -269,9 +269,6 @@ p {
         background: lighten($theme-color, 15%);
     }
 }
-
-
-
 
 .footer {
     padding-top: 30px;
