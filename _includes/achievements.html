@@ -10,23 +10,15 @@
     {{ achievements.title }}
   </h2>
 
-  <div class="achievements">
+  <div class="skillset">
     {% for achievement in achievements.toolset %}
     <div class="item">
-      <h3 class="level-title">{{ achievement.name }}</h3>
-
-      <div class="summary">
-        {{ achievement.summary | markdownify }}
-      </div><!--//summary-->
-
-    </div><!--//item-->
+      <div class="upper-row"><h3 class="level-title">{{ achievement.name }}</h3></div>
+      <br>
+      <div class="summary">{{ achievement.summary | markdownify }}</div>
+    </div>
     {% endfor %}
-
   </div>
-
-  <div class="summary">
-    {{ achievements.summary | markdownify }}
-  </div><!--//summary-->
     
 </section><!--//section-->
 {% endif %}
