@@ -45,7 +45,7 @@ career-profile:
 skills:
   title: Skills &amp; Proficiency
   toolset:
-    - name: Kubernetes & Cloud Platforms
+    - name: Kubernetes
       summary: Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure).
 
     - name: Infrastructure Reliability
