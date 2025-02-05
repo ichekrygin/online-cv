@@ -64,9 +64,8 @@ achievements:
       summary: |
         <p>Designed and deployed multi-tenant Kubernetes clusters on bare metal, improving resource utilization and cost efficiency across production workloads.</p>
         <p>Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.</p>
-        <p>Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
-        - Reduced failure rates by 20%, improving overall cluster stability and reliability.
-        - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses.
+        <p>Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that reduced failure rates by 20%, improving overall cluster stability and reliability,
+        and increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses.
         <p>Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.</p>
     - name: Cloud-Native Platform Adoption & Optimization
       summary: |
@@ -75,9 +74,9 @@ achievements:
         <p>Drove Kubernetes migration efforts, leading to improved scalability, operational efficiency, and cloud cost savings.
     - name: Open-Source & Community Contributions
       summary: |
-        - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
-        - Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
-        - Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
+        Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
+        <p>Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
+        <p>Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
 
 education:
     - degree: MSc in Computer Science
