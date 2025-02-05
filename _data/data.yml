@@ -52,7 +52,7 @@ skills:
       summary: Enhancing system reliability and availability through automation, monitoring, and proactive issue resolution.
 
     - name: Software Development
-      summary: Proficient in Go, Python, and Java for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
+      summary: Proficient in Go for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
 
     - name: Technical Leadership
       summary: Driving large-scale initiatives, mentoring teams, and contributing to open-source projects like Crossplane.
