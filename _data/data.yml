@@ -66,13 +66,13 @@ achievements:
         - Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.
         - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
           - Reduced failure rates by 20%, improving overall cluster stability and reliability.
-          - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
+          - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses.
         - Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.
     - name: Cloud-Native Platform Adoption & Optimization
       summary: |      
         - Led architecture reviews for customer applications and services, identifying the best-fit compute platform and optimizing resource allocation.
-        - Bridged functional gaps in Apple’s Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
-        - Drove Kubernetes migration efforts at [HBO/Upbound/Zulily], leading to improved scalability, operational efficiency, and cloud cost savings.
+        - Bridged functional gaps in Compute Platform, enhancing adoption across diverse environments, including on-premises and third-party clouds.
+        - Drove Kubernetes migration efforts, leading to improved scalability, operational efficiency, and cloud cost savings.
     - name: Open-Source & Community Contributions
       summary: |
         - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
