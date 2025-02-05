@@ -64,6 +64,9 @@ achievements:
       summary: |
         - Designed and deployed multi-tenant Kubernetes clusters on bare metal, improving resource utilization and cost efficiency across production workloads.
         - Developed custom Kubernetes controllers and plugins to address internal cluster issues, streamlining workload scheduling and enhancing platform stability.
+        - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
+          - Reduced failure rates by 20%, improving overall cluster stability and reliability.
+          - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
         - Implemented automated cluster monitoring and self-healing mechanisms, reducing downtime by 10% and improving incident resolution time.
     - name: Cloud-Native Platform Adoption & Optimization
       summary: |      
@@ -75,13 +78,6 @@ achievements:
         - Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
         - Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
         - Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
-    - name: Reliability & Performance Improvements
-      summary: | 
-        - Optimized Kubernetes Infrastructure: Identified critical pain points in internal Kubernetes clusters and implemented targeted solutions that:
-          - Reduced failure rates by 20%, improving overall cluster stability and reliability.
-          - Increased bin-packing efficiency and hardware utilization, leading to 30%+ savings in operational expenses (OPEX).
-        - Enhanced CI/CD Pipeline: Designed and deployed a robust CI/CD pipeline for containerized applications, significantly reducing deployment times and improving developer efficiency.
-        - Proactive Monitoring & Incident Response: Built a real-time monitoring and alerting system, enabling proactive issue detection and reducing incident response times from days to minutes, minimizing downtime and improving system availability.
 
 education:
     - degree: MSc in Computer Science
