@@ -27,7 +27,7 @@
   <table class="skillset">
     {% for skill in skills.toolset %}
     <tr class="item">
-      <td class="level-title">{{ skill.name }}</td>
+      <td class="level-title"><h3>{{ skill.name }}</h3></td>
       <td class="summary">{{ skill.summary | markdownify }}</td>
     </tr>
     {% endfor %}
