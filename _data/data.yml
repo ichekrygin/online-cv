@@ -40,7 +40,11 @@ sidebar:
 career-profile:
     title: Professional Summary
     summary: |
-      Experienced software engineer with a strong background in distributed computing, Kubernetes, and cloud-native technologies. Over 10 years of expertise in designing, building, and maintaining scalable infrastructure solutions, specializing in multi-tenant Kubernetes clusters, workload scheduling, and platform reliability. Proven track record of leading architecture reviews, improving system resilience, and driving innovation in cloud and on-premises environments. Adept at identifying and resolving functional gaps, implementing automation, and contributing to open-source projects. Passionate about developing robust, scalable, and efficient systems that enhance platform usability and performance.
+      Software engineer and open-source contributor specializing in distributed systems, Kubernetes scheduling, and cloud-native workload orchestration. 
+      Recently contributed new features to Kueue, a Kubernetes-native job queueing system, enhancing quota-aware scheduling, preemption, and multi-cluster workload orchestration for AI/ML and batch workloads.
+      Proven track record of leading architecture reviews, improving system resilience, and driving innovation in cloud and on-premises environments. 
+      Adept at identifying and resolving functional gaps, implementing automation, and contributing to open-source projects. 
+      Passionate about developing robust, scalable, and efficient systems that enhance platform usability and performance.
 
 skills:
   title: Skills &amp; Proficiency
@@ -88,8 +92,14 @@ education:
       time: 2000 - 2004
 
 experiences:
+    - role: Software Engineer
+      time: 2025 - Present
+      company: Apple, Seattle
+      details: |
+        I contributed new features to Kueue, a Kubernetes-native job queueing system, enhancing quota-aware scheduling, workload slicing, preemption policies, and multi-cluster orchestration for AI/ML and batch workloads. My work included designing and implementing APIs, controller logic, and Kubernetes Enhancement Proposals in collaboration with CNCF SIG Scheduling and WG-Batch, ensuring upstream alignment and production-ready Go code.
+
     - role: Field Engineer
-      time: 2021 - Present
+      time: 2021 - 2025
       company: Apple, Seattle
       details: |
         Assisted customers in adopting the Apple Compute Platform across various environments, including on-premises and third-party clouds. Conducted architectural reviews of customer applications and services to determine the optimal computing platform fit. Identified and resolved functional gaps in the compute platform, driving comprehensive solutions to enhance customer experience and platform utilization.
