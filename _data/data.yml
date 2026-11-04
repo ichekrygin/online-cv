@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Illya Chekrygin
-    tagline: Kubernetes Applications Developer
+    tagline: Sr. Staff Engineer – Kubernetes &amp; Cloud-Native Platform Architecture
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -40,26 +40,28 @@ sidebar:
 career-profile:
     title: Professional Summary
     summary: |
-      Software engineer and open-source contributor specializing in distributed systems, Kubernetes scheduling, and cloud-native workload orchestration. 
-      Recently contributed new features to Kueue, a Kubernetes-native job queueing system, enhancing quota-aware scheduling, preemption, and multi-cluster workload orchestration for AI/ML and batch workloads.
-      Proven track record of leading architecture reviews, improving system resilience, and driving innovation in cloud and on-premises environments. 
-      Adept at identifying and resolving functional gaps, implementing automation, and contributing to open-source projects. 
-      Passionate about developing robust, scalable, and efficient systems that enhance platform usability and performance.
+      Software/infrastructure engineer and open-source contributor specializing in distributed systems, Kubernetes scheduling, and large-scale cloud-native infrastructure.
+      Sets technical direction for GKE/EKS platform infrastructure at Apple spanning 5,000–10,000+ nodes (Bolt platform), owning architecture across compute, GitOps, policy, and observability domains.
+      Shapes the design of Kueue, a Kubernetes-native job queueing system, in collaboration with CNCF SIG Scheduling and WG-Batch.
+      Track record of setting cross-team technical strategy, driving architecture reviews, and establishing engineering standards across cloud and on-premises environments.
 
 skills:
   title: Skills &amp; Proficiency
   toolset:
     - name: Kubernetes
-      summary: Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure).
+      summary: Architecting, deploying, and maintaining Kubernetes clusters on bare metal and cloud providers (AWS, GCP, Azure) at scale (5,000–10,000+ nodes); GitOps (Flux/Kustomize); policy-as-code (Kyverno); job queueing/scheduling (Kueue).
+
+    - name: Observability
+      summary: Prometheus, Thanos (sharded architectures), Cortex, OpenTelemetry, Alertmanager, Grafana.
 
     - name: Infrastructure Reliability
-      summary: Enhancing system reliability and availability through automation, monitoring, and proactive issue resolution.
+      summary: Setting standards for system reliability and availability through automation, monitoring, and proactive engineering practices.
 
     - name: Software Development
       summary: Proficient in Go for building distributed systems, Kubernetes controllers, and custom infrastructure tooling.
 
     - name: Technical Leadership
-      summary: Driving large-scale initiatives, mentoring teams, and contributing to open-source projects like Crossplane.
+      summary: Driving large-scale initiatives, mentoring teams, and contributing to open-source projects including Crossplane and Kueue.
 
 achievements:
   title: Achievements and Impact
@@ -80,7 +82,7 @@ achievements:
       summary: |
         Founding engineer for Crossplane, a Kubernetes-native multicloud control plane, contributing to its adoption as a CNCF project.
         <p>Speaker at KubeCon, GeekWire Cloud Summit, and other conferences, presenting best practices on Kubernetes scaling, custom controllers, and multi-cloud management.
-        <p>Contributed patches, plugins, and design improvements to open-source Kubernetes projects, helping the broader cloud-native community.
+        <p>Contributed patches, plugins, and design improvements to open-source Kubernetes projects, including recent contributions to Kueue's scheduling, preemption, and multi-cluster orchestration features.
 
 education:
     - degree: MSc in Computer Science
@@ -92,11 +94,19 @@ education:
       time: 2000 - 2004
 
 experiences:
-    - role: Apple Services Engineer
+    - role: Platform Engineer – Bolt Platform
       time: 2025 - Present
       company: Apple, Seattle
       details: |
-        I contributed new features to Kueue, a Kubernetes-native job queueing system, enhancing quota-aware scheduling, workload slicing, preemption policies, and multi-cluster orchestration for AI/ML and batch workloads. My work included designing and implementing APIs, controller logic, and Kubernetes Enhancement Proposals in collaboration with CNCF SIG Scheduling and WG-Batch, ensuring upstream alignment and production-ready Go code.
+        Operate and evolve large-scale Kubernetes infrastructure (GKE and EKS, 5,000–10,000+ nodes) supporting AI/ML and general compute workloads.
+        <ul>
+        <li>Own technical strategy for GPU and general-purpose compute infrastructure at fleet scale, setting node lifecycle and autoscaling architecture standards adopted across the platform.</li>
+        <li>Define the platform's GitOps and policy-as-code strategy, establishing the repository and admission-control patterns that govern scheduling and configuration across the cluster fleet.</li>
+        <li>Set technical direction for platform observability architecture, establishing the metrics and alerting standards used across the multi-cluster fleet.</li>
+        <li>Establish RBAC and namespace governance models adopted across platform configuration repositories.</li>
+        <li>Represent the platform in CNCF SIG Scheduling and WG-Batch, shaping the architecture of Kueue's APIs and controllers for quota-aware scheduling and multi-cluster orchestration of AI/ML workloads.</li>
+        <li>Mentor engineers across the platform team on Kubernetes architecture and GitOps/observability best practices, and serve as a technical escalation point for cross-team infrastructure decisions.</li>
+        </ul>
 
     - role: Field Engineer
       time: 2021 - 2025
